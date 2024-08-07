@@ -1,0 +1,191 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: rgb(10, 10, 9);
+}
+h1{
+    font-family: "DM Serif Display", serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    position: fixed;
+    background-color: rgb(50, 48, 45);
+    
+}
+header ul{display: flex;
+    justify-content: space-around;
+    
+}
+header li{
+    margin: 20px;
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header ul li a i {
+    margin: 7px;
+}
+header ul li a:hover{
+    color: rgb(253, 250, 250);
+    font-style: oblique;
+}
+/* section{
+    background-image: url(https://www.pngdow.com/files/preview/960x960/11687239785jcxkiixo3j724yz2gljxi2r5nxtcmainb8rwx95u8bwyr1wtaehmufvdlokxhfgtj4t6z7sy4bqohfag4fda4cenfrfpu2isekes.png);
+    background-repeat: no-repeat;
+    align-items: left;
+} */
+/* section ul{
+    justify-content: space-around;
+    margin-left: 150px;
+    font-size: 50px;
+ }
+ section ul li{
+    margin: 20px;
+    list-style: none;
+    color: rgb(2, 2, 2);
+   
+ }
+ section h1{
+    text-align: center;
+    margin-top: 300px;
+    color: rgb(30, 28, 28);
+    font-weight: 800;
+ } */
+ #bd{
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(249, 248, 248);
+    border: 4px double rgb(255, 253, 253);
+    padding: 50px;
+    background-color: transparent;
+ }
+  span p{
+    color: rgb(121, 114, 114);
+    font-size: large;
+    text-align: right;
+    margin-right: 100px;
+    text-align: justify;
+    
+    
+    /* padding: 50px; */
+ }
+ section  img{
+    margin-left: 100px;
+    
+ }
+ 
+ h2{
+
+
+     text-align: center; 
+    color: rgb(12, 11, 11);
+
+ }
+ 
+
+ section img {
+    float: left;
+}
+section h1{
+    text-align: center;
+    
+}
+#head::first-letter{
+    color: crimson;
+
+}
+.row2{
+    width: 100%;
+    height: 300px;
+    margin-left: 140px;
+    padding-top: 30px;
+}
+.col2{
+    width:240px ;
+    height:250px ;
+    background-color: whitesmoke;
+    margin: 20px;
+    float: left;
+    box-shadow: 4px 5px 6px 8px rgb(57, 51, 51);
+    margin-left: 38px;
+    border-radius:30px ;
+
+}
+.col2 p{ text-align: center;
+}
+.row3{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+}
+.col3{
+    width: 220px;
+    height: 400px;
+    border: 2px white solid;
+    background-color: transparent;
+    color: white;
+    margin-left: 95px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.col3 img{
+    align-items: center;
+    margin-left: 0%;
+}
+#web{
+    margin-top: 100px;
+    padding-top: 40px;
+}
+.col3:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  footer{
+    width:100%;
+    height: 550px;
+    background-color: black;
+}
+footer h1{
+    color: black;
+}
+footer img{
+    width: 50px;
+    height: 50px;
+}
+.row99{
+    display: flex;
+}
+.col77{
+    margin: 20px;
+    margin-left: 150px;
+}
